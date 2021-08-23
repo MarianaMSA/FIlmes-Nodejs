@@ -151,6 +151,6 @@ app.delete("/filmes/:id", (req, res) => {
 });
 
 //Definicao do listener passando a porta do servico
-app.listen(port, function () {
+app.listen(port, () => {
   console.info(`App rodando na porta http://localhost:${port}/`);
 });
